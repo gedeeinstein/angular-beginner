@@ -2,7 +2,7 @@
 
 <div *ngFor="let product of products" style="border: dotted 1px; border-radius:10px; margin-top:5px">
   <h3>
-    <a [title]="product.name">
+    <a [title]="product.name" [routerLink]="['/products', productId]">
       {{ product.name }}
     </a> 
     <span style="float:right; margin-right: 10px">
