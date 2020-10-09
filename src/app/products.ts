@@ -13,6 +13,21 @@ export const products = [
     name: 'Phone Standard',
     price: 299,
     description: ''
+  },
+  {
+    name: 'iPhone 11',
+    price: 479,
+    description: 'Just the right amount of everything'
+  },
+  {
+    name: 'iPhone 11 Pro',
+    price: 719,
+    description: 'Pro cameras. Pro display. Pro performance.'
+  },
+  {
+    name: 'iPhone XR',
+    price: 599,
+    description: 'Rated IP67 (maximum depth of 1 meter up to 30 minutes) under IEC standard 60529'
   }
 ];
 
