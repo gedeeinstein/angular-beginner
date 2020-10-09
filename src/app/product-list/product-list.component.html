@@ -2,9 +2,12 @@
 
 <div *ngFor="let product of products" style="border: solid 1px; border-radius:10px; margin-top:5px">
   <h3>
-    <a [title]="product.name + ' details'">
+    <a [title]="product.name">
       {{ product.name }}
-    </a>
+    </a> 
+    <span style="float:right; margin-right: 10px">
+      ${{product.price}}
+    </span>
   </h3>
   
   <p *ngIf="product.description">
