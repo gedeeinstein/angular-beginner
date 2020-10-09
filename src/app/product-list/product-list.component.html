@@ -14,9 +14,8 @@
     Description: {{ product.description }}
 
   </p>
-  <button style="background-color:#ff0000bf;border-radius:5px; margin:5px" (click)="share()">
-  Share
-  </button>
+  <button style="background-color:#ff0000bf;border-radius:5px; margin:5px" (click)="share()">Share</button>
+  <app-product-alerts [product]="product"></app-product-alerts>
 
 
 </div>
